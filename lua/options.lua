@@ -68,11 +68,3 @@ vim.o.hlsearch = false
 vim.o.incsearch = true
 -- Preview substitutions live, as you type!
 vim.o.inccommand = 'split'
-
--- Folding (use treesitter)
-vim.o.foldmethod = 'expr'
-vim.o.foldexpr = 'v:lua.vim.treesitter.foldexpr()'
-
-vim.o.foldtext = ''
-vim.o.foldlevelstart = 99
-vim.o.foldnestmax = 2
