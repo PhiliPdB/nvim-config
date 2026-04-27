@@ -172,9 +172,11 @@ return {
       'ltex_plus',
       'lua_ls',
       'nixd',
+      'pyright',
       'roslyn_ls',
       'rust_analyzer',
       'texlab',
+      'zls',
     }
 
     -- Setup the language servers
