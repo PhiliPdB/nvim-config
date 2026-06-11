@@ -13,7 +13,7 @@ vim.o.expandtab = true
 vim.o.mouse = 'a'
 
 -- Don't show the mode, it's in the status line
--- vim.o.showmode = false
+vim.o.showmode = false
 
 -- Enable break indent
 vim.o.breakindent = true
